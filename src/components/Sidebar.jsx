@@ -7,8 +7,8 @@ import { Outlet } from "react-router-dom";
 function Sidebar() {
 	return (
 		<div className={styles.sidebar}>
-			<Logo/>
-			<AppNav/>
+			<Logo />
+			<AppNav />
 			<Outlet />
 			<Footer />
 		</div>

@@ -1,4 +1,6 @@
 import styles from "./CountryItem.module.css";
+import PropTypes from 'prop-types';
+// import CityItem from "./CityItem";
 
 function CountryItem({ country }) {
   return (
@@ -10,3 +12,7 @@ function CountryItem({ country }) {
 }
 
 export default CountryItem;
+
+CountryItem.propTypes = {
+	country: PropTypes.object,
+};
