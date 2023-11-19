@@ -12,7 +12,7 @@ function Button({ children, onClick, type }) {
 export default Button;
 
 Button.propTypes = {
-	children: PropTypes.object,
+	children: PropTypes.string,
 	onClick: PropTypes.func,
 	type: PropTypes.string,
 };
